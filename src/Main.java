@@ -17,7 +17,7 @@ void main(){
     String endOfAddress = ".com";
 
     if(websiteAddress.substring(0,4).equals(startAddress)) {
-      IO.println("Correct starting formatting");
+        IO.println("Correct starting formatting");
     } else {
         IO.println("Incorrect starting formatting");
     }
